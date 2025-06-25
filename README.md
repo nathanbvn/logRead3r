@@ -54,9 +54,12 @@ Logs can be saved and annotated into a `saves.csv` file for later reporting.
 **✅ Interactive CLI Search**
 Supports flexible search logic:
 
-*Symbol	Function	Example*
+*Symbol	Function Example*
+
 `;`	AND	`;password,admin;`
+
 `/`	OR	`/error,admin,denied/`
+
 `!`	NOT	`!password,guest!`
 
 ---
@@ -68,21 +71,35 @@ Supports flexible search logic:
 - Red – User-defined highlights (show +keyword)
 - Yellow – Search matches
 
+
 ---
+
 
 **✅ Commands**
 Command	Description
+
 `changeme`	Open file picker to load a new log file
+
 `exit`	Quit the program
+
 `clear`	Clear the terminal
+
 `show`	List current highlighted keywords
+
 `show +term` Add a keyword to highlight in red
+
 `show -term`	Remove a keyword from highlights
+
 `resetshow`	Reset all user-defined highlights
+
 `save <num> "comment"` Save a specific log entry by its number, with an optional comment
+
 `save reset`	Reset the saves.csv file with headers
 
+
 ---
+
+
 
 **✅ Annotation & Export**
 
