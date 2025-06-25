@@ -1,0 +1,8 @@
+kali
+DCSync
+Explicit
+Password
+Anonymous
+malware
+RDP
+Remote Desktop
